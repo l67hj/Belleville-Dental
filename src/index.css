@@ -282,3 +282,14 @@ filter buttons on professional education page */
   color: #ffffff !important;
   border: 1px solid #1381EC !important;
 }
+.researchContainer{
+background: linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(133, 130, 130, 0.5)   
+    ),url("https://i.postimg.cc/dQgbzTX9/dentist-office-doctor-practice-concept-close-uo-hands-professional-african-american-doctor-dentistry.jpg");
+background-size: cover;
+color: white !important;
+background-repeat: no-repeat;
+background-position: center;
+
+}

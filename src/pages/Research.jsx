@@ -13,7 +13,15 @@ function Research() {
   return (
     <>
       <div>
+         <div className="researchContainer vh-100 d-flex flex-column justify-content-center align-items-center text-center bg-light">
         <div className="container">
+          <h2 className="fw-bold display-5">Research</h2>
+          <h4>Advancing Dental Care Through Research</h4>
+          <p> At Belleville Dental, we’re committed to innovation and excellence. Our research drives better treatments, smarter technologies, and healthier smiles.  </p>
+        </div>
+      </div>
+       
+        <div className="container py-5 px-5">
           <div className="row g-4">
 
         
