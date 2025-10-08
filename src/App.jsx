@@ -1,15 +1,15 @@
-import React from 'react'
+
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import About from './pages/About'
 import Gallary from './pages/Gallary'
-import Contact from './pages/Contact'
-
 import Professional from './pages/Professional'
 import Patient from './pages/Patient'
 import Research from './pages/Research'
 import Products from './pages/Products'
 import Navbar from './component/NAVBAR/Navbar'
+import Footer from './component/footer/Footer'
+import Contact from './pages/Contact'
 
 function App() {
   return (
@@ -27,6 +27,9 @@ function App() {
       <Route path='/gallary' element={<Gallary/>}/>
       <Route path='contact' element={<Contact/>}/>
     </Routes>
+    <div>
+      <Footer/>
+    </div>
     </>
   )
 }
