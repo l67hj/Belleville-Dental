@@ -4,7 +4,6 @@ import * as Yup from "yup";
 import "./contact.css";
 
 function Contact() {
-  // const [userName, setUserName] = useState("");
 
       const [formData, setFormData] = useState({
   firstname: "",
@@ -15,10 +14,6 @@ function Contact() {
 });
     const [status, setStatus] = useState("");
 
-  // const handleChange = (e) => {
-  //   const { name, value } = e.target;
-  //   setFormData({ ...formData, [name]: value });
-  // };
 
   useEffect(() => {
   const savedUser = localStorage.getItem("contactUser");
@@ -62,54 +57,48 @@ function Contact() {
 
       {/* contact hero section */}
       <div className=" container">
-        <h1 className="fw-bold display-5">Contact Us</h1>
+        <h1 className="display-6 fw-bold text-black  text-center">Contact Us</h1>
         <p>
-          At Belleville Dental, your comfort and confidence are our top
-          priorities. Whether you’re visiting for a routine check-up, cosmetic
-          enhancement, or a complete smile transformation, we’re here to make
-          every step of your dental journey easy and reassuring.
+          At Belleville Dental, your comfort and confidence are our top priorities. Whether you’re visiting for a routine check-up, cosmetic
+          enhancement, or a complete smile transformation, we’re here to make every step of your dental journey easy and reassuring.
         </p>
       </div>
       </div>
 
+
+      {/* contact us form and text */}
       <div className="container py-5">
-        <div className="row">
+        <div className="row align-items-center g-3">
 
         <div className="contact-info col-lg-6 col-md-12">
-          <h2 className="fw-bold display-5">
-            Contact Us Today for Personalized Support and Assistance
+          <h2 className=" fw-bold text-black  text-start">
+            Contact Us for Personalized Support and assistant
           </h2>
-          <p className="text-muted">
-            Our team is happy to answer your questions, discuss treatment
+          <p className=""> Our team is happy to answer your questions, discuss treatment
             options, or help you schedule an appointment that fits your busy
             life.
           </p>
 
-          <h3 className="fw-bold ">Visit Us</h3>
+          <h3 className="fw-bold text-black  text-start ">Visit Us</h3>
           <p>123 Agodi Street, Ibadan, Nigeria</p>
 
-          <h3 className="fw-bold">Call Us</h3>
+          <h3 className=" fw-bold text-black  text-start">Call Us</h3>
           <p>+234 800 123 4567</p>
 
-          <h3 className="fw-bold">Email</h3>
+          <h3 className="fw-bold text-black">Email</h3>
           <p>info@itssng.com</p>
         </div>
 
       
         <div className="form-container col-lg-6 col-md-12">
           <Formik
-            initialValues={{
-              firstname: "",
-              lastname: "",
-              email: "",
-              phoneNo: "",
-              message: "",
-            }}
-            validationSchema={validationSchema}
-            onSubmit={handleSubmit}
-          >
+  enableReinitialize
+  initialValues={formData}
+  validationSchema={validationSchema}
+  onSubmit={handleSubmit}
+>
             {() => (
-              <Form className="contact-form shadow-sm bg-white px-3 py-5">
+              <Form className="contact-form shadow-sm bg-white px-3 py-5 rounded-4">
                 <div className="label-container">
                    <div className="label">
                 <label>First Name</label>
@@ -137,17 +126,19 @@ function Contact() {
                 <ErrorMessage name="phoneNo" component="p" className="error" />
                 </div>
                </div>
-                    <div className="label">
+                <div className="label">
                 <label>Message</label>
-                <Field  as="textarea" name="message"  placeholder="Your Message" className="text-context"/>
+                <Field  as="textarea" name="message"  placeholder="Your Message" className="text-context message px-3 py-3"/>
                  <ErrorMessage name="message" component="p" className="error" />
                  </div>
                 {status && <p className="status-message">{status}</p>}
 
-                  
+
+                <div className="px-3 pt-4">
                 <button type="submit" className="submit-btn">
                   Send Message
                 </button>
+                </div>
               </Form>
             )}
           </Formik>

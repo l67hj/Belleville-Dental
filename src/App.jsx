@@ -11,6 +11,9 @@ import Products from './pages/Products'
 import Navbar from './component/Navbar'
 import Professional from './pages/Professional'
 
+import Footer from './component/footer/Footer'
+import FooterTicker from './component/Ticker'
+
 function App() {
   return (
     <>
@@ -23,11 +26,10 @@ function App() {
       <Route path='/products' element={<Products/>}/>
       <Route path='/about'    element={<About/>}/>
       <Route path='/gallery'  element={<Gallery/>}/>
-      <Route path='contact'   element={<Contact/>}/>
+      <Route path='/contact'   element={<Contact/>}/>
     </Routes>
-    <div>
-      <Footer/>
-    </div>
+    <FooterTicker />
+    <Footer />
     </>
   )
 }

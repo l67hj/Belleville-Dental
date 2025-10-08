@@ -17,17 +17,31 @@ export default function FooterTicker() {
     navigator.geolocation.getCurrentPosition(
       (pos) => {
         const { latitude, longitude } = pos.coords;
-        setLoc(Lat: ${latitude.toFixed(2)}, Lon: ${longitude.toFixed(2)});
+        setLoc(`Lat: ${latitude.toFixed(2)}, Lon: ${longitude.toFixed(2)}`);
       },
-      (err) => setLoc("Location denied or unavailable")
+      () => setLoc("Location denied or unavailable")
     );
   }, []);
 
   return (
-    <div style={{position: "fixed", bottom: 0, width: "100%", background:"#f8f9fa", borderTop:"1px solid #ddd"}}>
-      <div style={{whiteSpace:"nowrap", overflow:"hidden"}}>
-        <div style={{display:"inline-block", padding:"8px 0", animation:"marquee 18s linear infinite"}}>
-          {` ${time.toLocaleString()} — ${loc} — Belleville Dental Updates`}
+    <div
+      style={{
+        position: "fixed",
+        bottom: 0,
+        width: "100%",
+        background: "#f8f9fa",
+        borderTop: "1px solid #ddd",
+      }}
+    >
+      <div style={{ whiteSpace: "nowrap", overflow: "hidden" }}>
+        <div
+          style={{
+            display: "inline-block",
+            padding: "8px 0",
+            animation: "marquee 18s linear infinite",
+          }}
+        >
+          {`${time.toLocaleString()} — ${loc} — Belleville Dental Updates: Brush twice daily • Book checkups`}
         </div>
       </div>
       <style>{`
