@@ -1,0 +1,53 @@
+.heading{
+  background-color: #137fec3f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  color: black;
+}
+
+
+.contact-contain{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px 0px;
+}
+
+.status-message{
+  color: green;
+  
+}
+/* .contact-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}  */
+.label-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+ .label{
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  gap: 5px;
+ }
+ .field{
+  padding: 10px;
+  border-radius: 20px;
+  outline: none;
+  border: 1px solid black;
+ }
+.text-context{
+  height: 150px;
+  border-radius: 5px;
+  outline: none;
+ }
+

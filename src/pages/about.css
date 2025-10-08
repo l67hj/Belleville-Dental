@@ -1,0 +1,354 @@
+.hero-text{
+  background-color: #137fec3f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 70px 40px;
+  color: black;
+}
+.hero-text h1{
+  font-family: poppins;
+  font-weight: bold;
+  font-size: 60px;
+}
+.hero-text p{
+  font-family: mulish;
+  font-size: 18px;
+}
+.hero-para{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.hero-para{
+  margin: 50px 0px;
+}
+.hero-para img{
+  width: 350px;
+}
+.para h4{
+  font-size: 17px;
+  font-family: mulish;
+  font-weight: bold;
+  /* padding: 10px 0px 0px 120px; */
+}
+.para h2{
+ font-family: mulish;
+ font-weight: bold;
+ font-size: 40px;
+ padding: 5px;
+}
+.para p{
+  font-size: 12px;
+  font-family: poppins;
+  padding: 10px;
+}
+.testimonial{
+  text-align: center;
+  padding: 20px 0px;
+  font-family: poppins;
+  font-weight: bold;
+  font-size: 30px;
+}
+.card{
+    margin: 15px;
+  align-items: center;
+ text-align: center;
+}
+.card-img-top{
+  width: 150px;
+  margin: 15px;
+}
+.card:hover{
+  background-color: #2d95fd;
+  color: white;
+  transition: transform 0.3s ease;
+   transform: scale(1.1);
+}
+.card-title{
+  font-weight: bold;
+  font-family: poppins;
+  font-size: 20px;
+  padding: 5px 0px;
+}
+.card-text{
+  font-family: mulish;
+  font-size: 17px;
+  padding: 5px 0px;
+}
+.team-container h2{
+text-align: center;
+font-family: poppins;
+font-size: 30px;
+font-weight: bold;
+padding: 20px;
+}
+ .team-image{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+   padding: 70px;
+}
+.team-img{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: mulish;
+  color: black;
+  font-size: 20px;
+} 
+.team-img img{
+  width: 280px;
+  height: 280px;
+ border-radius: 50%;
+}
+.subscribe-field{
+  background-color: #137fec3f;
+   text-align: center;
+  color: black;
+  height: 90vh;
+  padding: 90px;
+}
+.subscribe-field p{
+  font-family: poppins;
+  font-size: 18px;
+  padding: 15px 0px;
+}
+.subscribe-field h1{
+  font-family: mulish;
+  font-size: 45px;
+  font-weight: bold;
+  padding: 30px 0px 15px 0px;
+}
+.form-one{
+  font-family: mulish;
+  font-size: 18px;
+  
+}
+.form-one input{
+  outline: none;
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 600px;
+  background-color: white;
+  padding: 10px;
+  margin: 20px 0px;
+  
+}
+.form-one button{
+  position: absolute;
+  right: 27.2%;
+  background-color: #1381ec;
+  color: white;
+  border: none;
+  border-radius: 0px 19px 19px 0px;
+  padding: 11px 31px;
+  font-weight: bold;
+  margin: 20px 0px;
+}
+.message p{
+  color: green;
+}
+.message-error p{
+  color: red;
+}
+/* @media (min-width: 481px)and(max-width: 768px) {
+  .hero-text{
+  background: linear-gradient(to right,#60affd,#1381ec);
+  height: 40vh;
+  display: block;
+  text-align: left;
+  padding: 60px 20px;
+  color: white;
+}
+.hero-text h1{
+  font-family: poppins;
+  font-weight: bold;
+  font-size: 60px;
+}
+.hero-text p{
+  font-family: mulish;
+  font-size: 14px;
+  padding: 10px 0px;
+}
+.hero-para{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 30px;
+}
+.hero-para{
+  margin: 50px 0px;
+}
+.hero-para img{
+  width: 350px;
+}
+
+.para h4{
+  font-size: 17px;
+  font-family: mulish;
+  font-weight: bold;
+}
+.para h2{
+ font-family: mulish;
+ font-weight: bold;
+ font-size: 2rem;
+ padding: 10px 0px;
+}
+.para p{
+  font-size: 15px;
+  font-family: poppins;
+}
+
+.subscribe-field{
+  background-color: #137fec3f;
+  text-align: center;
+  color: white;
+  margin: 10px 0px;
+  height: 60vh;
+  align-items: center; 
+}
+.subscribe-field p{
+  font-family: poppins;
+  font-size: 10px;
+  padding: 10px 0px;
+}
+.subscribe-field h1{
+  font-family: mulish;
+  font-size: 45px;
+  font-weight: bold;
+  padding: 70px 0px 15px 0px;
+}
+.form-one{
+  font-family: mulish;
+  font-size: 18px;
+  
+}
+.form-one input{
+  outline: none;
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 2px;
+  background-color: transparent;
+  padding: 10px;
+  margin: 20px 0px;
+  
+}
+.form-one button{
+  position: absolute;
+  right: 6%;
+  background-color: white;
+  color: #1381ec;
+  border: none;
+  border-radius: 0px 19px 19px 0px;
+  padding: 11px 21px;
+  font-weight: bold;
+  margin: 20px 0px;
+}
+.message p{
+  color: green;
+}
+.message-error p{
+  color: red;
+}
+}
+@media (max-width: 1024px)  {
+  .hero-text{
+  background: linear-gradient(to right,#60affd,#1381ec);
+  height: 70vh;
+  text-align: left;
+  padding: 90px 20px;
+  color: white;
+}
+.hero-text h1{
+  font-family: poppins;
+  font-weight: bold;
+  font-size: 60px;
+}
+.hero-text p{
+  font-family: mulish;
+  font-size: 14px;
+  padding: 10px 0px;
+}
+.hero-para{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 30px;
+}
+.hero-para{
+  margin: 50px 0px;
+}
+.hero-para img{
+  width: 350px;
+}
+
+.para h4{
+  font-size: 17px;
+  font-family: mulish;
+  font-weight: bold;
+}
+.para h2{
+ font-family: mulish;
+ font-weight: bold;
+ font-size: 2rem;
+ padding: 10px 0px;
+}
+.para p{
+  font-size: 15px;
+  font-family: poppins;
+}
+.subscribe-field{
+  background-color: #137fec3f;
+  text-align: center;
+  color: white;
+  margin: 20px 0px;
+  height: 40vh;
+  align-items: center; 
+}
+.subscribe-field p{
+  font-family: poppins;
+  font-size: 20px;
+  padding: 10px 0px;
+}
+.subscribe-field h1{
+  font-family: mulish;
+  font-size: 45px;
+  font-weight: bold;
+  padding: 70px 0px 15px 0px;
+}
+.form-one{
+  font-family: mulish;
+  font-size: 18px;
+  
+}
+.form-one input{
+  outline: none;
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 500px;
+  background-color: transparent;
+  padding: 10px;
+  margin: 20px 0px;
+  
+}
+.form-one button{
+  position: absolute;
+  right: 19.1%;
+  background-color: white;
+  color: #1381ec;
+  border: none;
+  border-radius: 0px 19px 19px 0px;
+  padding: 11px 21px;
+  font-weight: bold;
+  margin: 20px 0px;
+}
+.message p{
+  color: green;
+}
+.message-error p{
+  color: red;
+} 
+}  */
