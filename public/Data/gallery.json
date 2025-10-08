@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "title": "Teeth Whitening",
+    "description": "Brighten your smile with our professional teeth whitening treatments.",
+    "image": "https://i.postimg.cc/hPqjW7qS/dentist-examining-patients-teeth-with-dental-curing-light.jpg",
+    "category": "Cosmetic"
+  },
+  {
+    "id": 2,
+    "title": "Dental Implants",
+    "description": "Replace missing teeth with durable and natural-looking dental implants.",
+    "image": "https://i.postimg.cc/qRRJw8nF/positive-female-dentist-curing-teeth-male-patient.jpg",
+    "category": "Restorative"
+  },
+  {
+    "id": 3,
+    "title": "Orthodontics",
+    "description": "Straighten your teeth with our braces and clear aligners.",
+    "image": "https://i.postimg.cc/Xqb23g8P/male-patient-with-cofferdam-mouth-showing-teeth-with-braces.jpg",
+    "category": "Cosmetic"
+  },
+  {
+    "id": 4,
+    "title": "Root Canal Therapy",
+    "description": "Save your natural teeth and eliminate pain with root canal treatment.",
+    "image": "https://i.postimg.cc/ZRFQWgCt/dental.jpg",
+    "category": "Endodontics"
+  },
+  {
+    "id": 5,
+    "title": "Dental Cleaning",
+    "description": "Maintain oral health with professional dental cleaning services.",
+    "image": "https://i.postimg.cc/26XJDWJR/view-from-side-female-doctor-process-doing-filling.jpg",
+    "category": "Preventive"
+  },
+  {
+    "id": 6,
+    "title": "Veneers",
+    "description": "Enhance the appearance of your teeth with custom dental veneers.",
+    "image": "https://i.postimg.cc/ydvKSWbR/dentist-whiting-teeth.jpg",
+    "category": "Cosmetic"
+  },
+  {
+    "id": 7,
+    "title": "Gum Treatment",
+    "description": "Prevent and treat gum diseases for a healthy smile.",
+    "image": "https://i.postimg.cc/GmVHHgs6/old-man-sitting-dentist-s-office.jpg",
+    "category": "Periodontics"
+  },
+  {
+    "id": 8,
+    "title": "Pediatric Dentistry",
+    "description": "Specialized dental care for children in a friendly environment.",
+    "image": "https://i.postimg.cc/zX29wCBH/cute-little-girl-sitting-dentist-s-office.jpg",
+    "category": "Pediatric"
+  },
+  {
+    "id": 9,
+    "title": "Dental Crowns",
+    "description": "Restore damaged teeth with durable and natural-looking crowns.",
+    "image": "https://i.postimg.cc/HxTWywZh/man-smiling-while-female-dentist-keeping-range-fillings.jpg",
+    "category": "Restorative"
+  },
+  {
+    "id": 10,
+    "title": "Dental Bridges",
+    "description": "Fill the gap of missing teeth with fixed dental bridges.",
+    "image": "https://i.postimg.cc/HxTWywZh/man-smiling-while-female-dentist-keeping-range-fillings.jpg",
+    "category": "Restorative"
+  },
+  {
+    "id": 11,
+    "title": "Wisdom Tooth Extraction",
+    "description": "Safe removal of impacted or problematic wisdom teeth.",
+    "image": "https://i.postimg.cc/nzqd67pd/pacient-dental-clinic-while-operation.jpg",
+    "category": "Surgery"
+  },
+  {
+    "id": 12,
+    "title": "Tooth Fillings",
+    "description": "Repair cavities and prevent further tooth decay with fillings.",
+    "image": "https://i.postimg.cc/HxTWywZh/man-smiling-while-female-dentist-keeping-range-fillings.jpg",
+    "category": "Preventive"
+  },
+  {
+    "id": 13,
+    "title": "Full Mouth Rehabilitation",
+    "description": "Comprehensive restoration of function and aesthetics of your teeth.",
+    "image": "https://i.postimg.cc/P5MqyVgx/A-dentist-performing-a-full-mouth-rehabilitation-procedure-restoring-multiple-teeth-with-crowns-b.jpg",
+    "category": "Restorative"
+  },
+  {
+    "id": 14,
+    "title": "Smile Makeover",
+    "description": "Transform your smile with a combination of cosmetic treatments.",
+    "image": "https://i.postimg.cc/Xv3VyKXb/A-happy-patient-showing-a-confident-bright-smile-after-a-complete-smile-makeover-Include-subtle-hi.jpg",
+    "category": "Cosmetic"
+  },
+  {
+    "id": 15,
+    "title": "Dental Bonding",
+    "description": "Repair chipped or cracked teeth with dental bonding.",
+    "image": "https://i.postimg.cc/Hxh3F2yG/A-dentist-repairing-a-patient-s-chipped-or-cracked-tooth-using-dental-bonding-material-Show-the-den.jpg",
+    "category": "Cosmetic"
+  },
+  {
+    "id": 16,
+    "title": "Laser Dentistry",
+    "description": "Minimally invasive treatments using modern dental lasers.",
+    "image": "https://i.postimg.cc/NMJPBtWB/A-dentist-performing-a-minimally-invasive-dental-procedure-using-a-modern-dental-laser-Focus-on-the.jpg",
+    "category": "Advanced"
+  },
+  {
+    "id": 17,
+    "title": "Before/After Whitening Case",
+    "description": "Real patient results showing dramatic teeth whitening improvement.",
+    "image": "https://i.postimg.cc/sXw47Jck/Before-and-after-comparison-of-a-patient-s-smile-showing-dramatic-teeth-whitening-results-The-left.jpg",
+    "category": "Cosmetic"
+  },
+  {
+    "id": 18,
+    "title": "Dental X-Rays",
+    "description": "Advanced imaging for accurate diagnosis and treatment planning.",
+    "image": "https://i.postimg.cc/htYFb9CK/A-modern-dental-clinic-scene-showing-a-dentist-reviewing-a-3-D-dental-scan-on-a-computer-screen-Incl.jpg",
+    "category": "Diagnostics"
+  },
+  {
+    "id": 19,
+    "title": "Oral Cancer Screening",
+    "description": "Early detection of oral cancer for better treatment outcomes.",
+    "image": "https://i.postimg.cc/XNPvqCW7/A-professional-dental-clinic-setting-showing-a-dentist-examining-a-patient-s-mouth-with-a-gentle-f.jpg",
+    "category": "Preventive"
+  },
+  {
+    "id": 20,
+    "title": "Teeth Straightening Before/After",
+    "description": "See real patient results from our orthodontic treatments.",
+    "image": "https://i.postimg.cc/cLpYnzNs/Teeth-Straightening-Before-After.jpg",
+    "category": "Cosmetic"
+  }
+]
