@@ -1,25 +1,8 @@
-// import React, { useState } from 'react'
 import './about.css'
 import Why from '../../component/Why';
 
 function About() {
-//   const [email, setEmail] = useState("")
-// const [successMessage, setSuccessMessage] = useState("");
-// const [errorMessage, setErrorMessage] = useState("");
 
-// const handleSubmit = (e) => {
-//   e.preventDefault();
-//   if (!email.includes('@')) {
-//     setErrorMessage('Please enter a valid email address.');
-//     return;
-//   }
-//   console.log('Subscribed with:', email);
-//   setSuccessMessage('Thank you for subscribing!👍');
-//   setEmail("")
-//   setTimeout(() => {
-//     setSuccessMessage("");
-//   }, 500);
-// };
   return (
     <>
     {/* About us hero*/}
@@ -38,7 +21,7 @@ function About() {
       <div className='hero-para row align-items-center'>
 
         <div className="col-lg-6 col-md-12">
-              <img src='/Frame 80 (1).png'/>
+              <img src='/Frame 80 (1).png' className='w-100'/>
         </div>
         
         <div className='para col-lg-6 col-md-12'>
@@ -104,32 +87,7 @@ function About() {
           </div>
           </div>
         
-      {/* <div className='subscribe-field'>
-        <h1>Stay with us</h1>
-        <p>We see ourselves as part of the Belleville community. Our aim is to improve not<br/>  just individual smiles, butcommunity oral health, through outreach,<br/>  education, and service.</p>
-        <form onSubmit={handleSubmit} className='form-one'>
-              <div className='message'>
-                {successMessage && <p> {successMessage}</p>}
-             
-              </div>
-              <div  classNameName="message-error"> {errorMessage && <p>{errorMessage}</p>}</div>
-               
-              <input type="email" placeholder="Enter your emial" 
-               value={email}
-                onChange={(e) => {
-    setEmail(e.target.value)
-    setMessage("")
-  }}
-  
-  />
-              <button type="submit">Subscribe</button>
-             
-
-            </form>
-      </div> */}
-
-
-    {/* </div> */}
+      
     </>
   )
 }

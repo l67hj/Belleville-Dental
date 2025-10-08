@@ -60,7 +60,7 @@ height: auto;
   font-family: "Mulish", sans-serif;
 }
 .filter-btn {
-  background: #f05537; 
+  background: #1381EC; 
   border: none;
   border-radius: 8px;
   padding: 12px 20px;
@@ -80,7 +80,7 @@ height: auto;
   height: 30px;
 }
 .filter-btn:hover {
-  background: #d94326;
+  background: #1381EC ;
 }
 .reset-btn {
   top: 1px;

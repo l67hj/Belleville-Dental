@@ -17,7 +17,7 @@ function Why() {
 
         <div className="row justify-content-center text-center g-4 py-5">
           
-          {/* Card 1 */}
+          {/*  first card */}
           <div className="col-lg-4 col-md-6">
             <div className="whycard h-100 border-0 p-4 rounded-4">
               <div className="mb-3">
@@ -31,7 +31,7 @@ function Why() {
             </div>
           </div>
 
-          {/* Card 2 */}
+          {/* second card */}
           <div className="col-lg-4 col-md-6 ">
             <div className="whycard h-100 border-0  p-4 active rounded-4">
               <div className="mb-3 ">
@@ -45,7 +45,7 @@ function Why() {
             </div>
           </div>
 
-          {/* Card 3 */}
+          {/* third card*/}
           <div className="col-lg-4 col-md-6">
             <div className="whycard h-100 border-0  p-4 rounded-4">
               <div className="mb-3">

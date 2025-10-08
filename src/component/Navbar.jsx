@@ -5,6 +5,9 @@ function Navbar() {
   const [scroll, setScroll] = useState(false);
   const [count, setCount] = useState(0)
 
+
+  // for removing rect strict mode of counting twice
+
     const Incremented = useRef(false); 
 
 
@@ -25,6 +28,7 @@ function Navbar() {
     }
   }, [])
 
+  // adding a shadow to the background of navbar on scroll
   useEffect(() => {
     const handleScroll = () => {
       setScroll(window.scrollY > 50);
@@ -33,6 +37,8 @@ function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+
+  // to close navbar dropdown or hamburger menu onclick
   const closeNavbar = () => {
     const navbar = document.getElementById("navbarSupportedContent");
     if (navbar.classList.contains("show")) {
