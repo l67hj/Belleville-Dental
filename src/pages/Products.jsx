@@ -42,7 +42,7 @@ function Products() {
 
 
       {/* Products Cards */}
-     <div className="productContainer container py-5">
+     <div className="productContainer container py-5 ">
   <div className="row g-4 justify-content-between flex-wrap d-flex">
     {filteredProducts.length > 0 ? (
       filteredProducts.map((item) => (

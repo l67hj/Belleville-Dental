@@ -98,6 +98,8 @@ height: auto;
     flex-wrap: wrap;
     gap: 12px;
     padding: 15px;
+    margin-bottom: 120px !important;
+
   }
 
   .filter-items input,
@@ -126,6 +128,8 @@ height: auto;
     align-items: stretch;
     width: 90%;
     gap: 12px;
+    margin-bottom: 120px !important;
+
   }
 
   .filter-items input,
