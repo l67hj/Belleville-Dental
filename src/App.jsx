@@ -11,8 +11,10 @@ import Products from './pages/Products'
 import Navbar from './component/Navbar'
 import Professional from './pages/Professional'
 
+
 import Footer from './component/footer/Footer'
 import FooterTicker from './component/Ticker'
+
 
 function App() {
   return (
