@@ -1,0 +1,100 @@
+{
+  "research": [
+    {
+      "id": 1,
+      "title": "Gum Disease & Heart Health",
+      "year": 2025,
+      "type": "Article",
+      "summary": "New findings link gum health with cardiovascular health, showing stronger connections between oral and systemic health.",
+      "link": "/research/gum-heart.pdf"
+    },
+    {
+      "id": 2,
+      "title": "Invisalign Effectiveness in Adults",
+      "year": 2024,
+      "type": "Study",
+      "summary": "A comparative study on the effectiveness of Invisalign versus traditional braces in adult orthodontics.",
+      "link": "/research/invisalign-study.pdf"
+    },
+    {
+      "id": 3,
+      "title": "AI in Dental Imaging",
+      "year": 2025,
+      "type": "Video",
+      "summary": "A review on how artificial intelligence is improving dental diagnostics through advanced imaging analysis.",
+      "link": "https://youtu.be/CBhU4rFV9DI?si=4tdsrTV5OQfufe78"
+    },
+    {
+      "id": 4,
+      "title": "Nanotechnology in Oral Care",
+      "year": 2023,
+      "type": "Research Paper",
+      "summary": "Exploring nanotech-based dental products for enamel protection and cavity prevention.",
+      "link": "/research/nano-oral.pdf"
+    },
+    {
+      "id": 5,
+      "title": "Laser Dentistry Advances",
+      "year": 2022,
+      "type": "Video",
+      "summary": "An in-depth review of the effectiveness of laser-assisted cavity treatment and gum reshaping.",
+      "link": "https://youtube.com/shorts/O7v6WaTtjoU?si=SnqdnZM2n2SAepCK"
+    },
+    {
+      "id": 6,
+      "title": "Saliva-Based Diagnostics",
+      "year": 2024,
+      "type": "Study",
+      "summary": "Saliva testing as a non-invasive diagnostic tool for detecting systemic diseases early.",
+      "link": "/research/saliva-diagnostics.pdf"
+    },
+    {
+      "id": 7,
+      "title": "3D Printing in Dentistry",
+      "year": 2025,
+      "type": "Research Paper",
+      "summary": "Applications of 3D printing for custom dental implants, crowns, and aligners.",
+      "link": "/research/3d-printing-dental.pdf"
+    },
+    {
+      "id": 8,
+      "title": "Biocompatible Dental Materials",
+      "year": 2023,
+      "type": "Article",
+      "summary": "The development of new materials that are safer and more durable for dental restorations.",
+      "link": "/research/biocompatible-materials.pdf"
+    },
+    {
+      "id": 9,
+      "title": "Sleep Apnea & Oral Devices",
+      "year": 2022,
+      "type": "Case Study",
+      "summary": "Case studies showing the role of oral appliances in managing sleep apnea effectively.",
+      "link": "/research/sleep-apnea.pdf"
+    },
+    {
+      "id": 10,
+      "title": "Regenerative Dentistry",
+      "year": 2024,
+      "type": "Research Paper",
+      "summary": "Exploring stem cell therapy and tissue engineering for tooth regeneration.",
+      "link": "/research/regenerative-dentistry.pdf"
+    },
+    {
+      "id": 11,
+      "title": "Teledentistry Growth",
+      "year": 2023,
+      "type": "Article",
+      "summary": "How telehealth has transformed dental consultations and access to care.",
+      "link": "/research/teledentistry.pdf"
+    },
+    {
+      "id": 12,
+      "title": "Oral Microbiome & Overall Health",
+      "year": 2025,
+      "type": "Study",
+      "summary": "Study on how the balance of oral bacteria impacts immunity, gut health, and chronic diseases.",
+      "link": "/research/oral-microbiome.pdf"
+    }
+  ]
+}

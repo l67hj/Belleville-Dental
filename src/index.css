@@ -1,5 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3,h4,h5, h6{
+    font-family: "Poppins", sans-serif;
+
+}
+p, a, button{
+    font-family: "Mulish", sans-serif;
+
+}
+
+/* navbar additional styling and manipulation */
+.navbar{
+   width: 100% !important;
+}
+.navbar ul li a{
+  color: black !important;
+  font-weight: 600 !important;
+  margin-left: 15px;
+  font-size: 15px;
+
+}
+
+.navbar ul li a.active{
+  color: #1381EC !important;
+}
+.navbar ul li a:hover{
+  color: #1381ec !important;
+}
+.scroll{
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+transition: 0.3s ease-in-out !important;
+background-color: #ffffff;
+}
+.navbar-toggler {
+  background: transparent !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important; 
+}
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  outline: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+
+}
+.navbar-toggler .toggler-line {
+  display: block;
+  width: 25px;
+  height: 2px;
+  margin: 5px 0;
+  background-color: #ffffff;
+  border-radius: 2px;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus,
+.dropdown-item:active {
+  background-color: transparent !important;
+  color: black !important; 
+}
+
+.dropdown-item.active {
+  background-color: transparent !important;
+  color: black !important;
+}
+
+.navbar-nav .button{
+  background-color: #1381EC !important;
+  border: none !important;
+  border-radius: 50px !important;
+  color: #ffffff !important;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.navbar-nav .button:hover{
+  border-radius: 50px !important;
+  color: #ffffff !important;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+
+/* hero section in homepage */
+
+.heroSection{
+  background-color: #137fec3f;
+  margin-bottom: 60px;
+}
+
+/* general styling for buttons */
+button{
+  background-color: #1381EC !important;
+  color: #ffffff !important;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px 35px;
+  border-radius:30px;
+  border: none !important;
+}
+ button:hover{
+  background-color: transparent  !important;
+  color: #000000 !important;
+  font-weight: bold !important;
+  border: 1px solid #1381ec !important;
+}
+
+/* about us section in homepage */
+.about{
+  margin-bottom: 60px;
+}
+
+.whycard {
+  border: 1px solid #000000 !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.whycard:hover {
+  background-color: #1381EC !important;
+  color: #ffffff !important;
+  border: none !important;
+  transform: scale(1.1);
+}
+
+.whycard.active {
+  background-color: #1381EC !important;
+  color: #ffffff !important;
+  border: none !important;
+  transform: scale(1.1);
+}
+
+.whyContainer:hover .whycard.active {
+  background-color: #ffffff !important; /* reset */
+  color: #000000 !important;
+  border: 1px solid #000000 !important;
+  transform: scale(1); 
+}
+.whycard p{
+  font-size: 16px !important;
+}
+
+
+/* faq component styles */
+.accordion-button:focus,
+.accordion-button:focus{
+   outline: none !important;
+  box-shadow: none !important;
+
+}
+.accordion-item{
+  background-color: #ffffff;
+  border: 1px solid #1381EC !important;
+
+}
+.accordion-button:not(.collapsed) {
+  background-color: #1381EC !important;
+  color: #ffffff !important;
+  border: 1px solid #1381EC !important;
+}
+.accordion-button.collapsed {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border: 1px solid #ffffff !important;
+}
+
+/* product page styles */
+.productHero{
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)   
+    ),url("./assets/productImg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #137fec3f !important;
+  margin-bottom: 60px !important;
+  padding-top: 200px;
+  color: #ffffff !important;
+}
+.productCard img{
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.productCard p{
+  height: 50px;
+  margin-top: 10px;
+}
+
+/* gallery page styles */
+
+.galleryHero{
+   background: linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)   
+    ),url("./assets/galleryHero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #137fec3f !important;
+  margin-bottom: 60px !important;
+  padding-top: 200px;
+  color: #ffffff !important;
+}
+.galleryCard {
+  cursor: pointer;
+}
+.galleryCard .overlay {
+  background: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  text-align: center;
+}
+
+.galleryCard:hover .overlay {
+  opacity: 1;
+}
+
+.galleryCard img{
+  width: auto;
+  height: 300px;
+  object-fit: cover;
+}
+.galleryCard img {
+  transition: transform 0.3s ease;
+}
+
+.galleryCard:hover img {
+  transform: scale(1.1);
+}
+
+/* education page styles */
+.educationHero{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)   
+    ),url("https://i.postimg.cc/bYGpMkY9/dentist-inviting-senior-man-consultation-dental-room-while-nurse-giving-patient-form-fill-indicating.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #137fec3f !important;
+  margin-bottom: 60px !important;
+  padding-top: 200px;
+  color: #ffffff !important;
+}
+
+/* 
+filter buttons on professional education page */
+.filter-bt {
+  background-color: transparent !important;
+  color: #1381EC !important;
+  border: 1px solid #1381EC !important;
+  padding: 10px 45px !important;
+  font-size: 16px !important;
+  border-radius: 50px !important;
+}
+
+.filter-bt:hover {
+  background-color: #1381EC !important;
+  color: #ffffff !important;
+}
+
+.filter-bt.active {
+  background-color: #1381EC !important;
+  color: #ffffff !important;
+  border: 1px solid #1381EC !important;
 }

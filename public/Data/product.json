@@ -1,0 +1,133 @@
+[
+  {
+    "id": "1",
+    "name": "FreshMint Toothpaste",
+    "category": "Toothpaste",
+    "price": 3.99,
+    "description": "Fluoride toothpaste for daily cavity protection.",
+    "image": "https://i.postimg.cc/zXQf7MPh/Fresh-Mint-Toothpaste-product-with-a-white-background.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Herbal Care Toothpaste",
+    "category": "Toothpaste",
+    "price": 4.50,
+    "description": "Natural herbal toothpaste for sensitive gums.",
+    "image": "https://i.postimg.cc/KjddknJZ/Herbal-Care-Toothpaste-product-with-a-white-background.jpg"  },
+  {
+    "id": "3",
+    "name": "Soft Bristle ToothBrush",
+    "category": "Toothbrush",
+    "price": 2.00,
+    "description": "Soft bristle manual toothbrush for daily use.",
+    "image": "https://i.postimg.cc/Dz0kNyJX/Soft-Bristle-Toothbrush-product-with-a-white-backfround-packaged-well-like-3-or-4.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Charcoal Infused ToothBrush",
+    "category": "Toothbrush",
+    "price": 2.50,
+    "description": "Toothbrush with charcoal bristles for extra cleaning.",
+    "image": "https://i.postimg.cc/Pfz3mnJ1/Charcoal-Infused-tooth-Brush-product-with-a-white-backgrounfd-packaged-well.jpg"  },
+  {
+    "id": "5",
+    "name": "Kids Strawberry Toothpaste",
+    "category": "Kids",
+    "price": 3.25,
+    "description": "Flavored toothpaste specially designed for kids.",
+    "image": "https://i.postimg.cc/x1q6DkR7/Kids-Strawberry-Toothpaste-product-with-a-white-background.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Kids Cartoon Brush",
+    "category": "Kids",
+    "price": 1.80,
+    "description": "Fun cartoon-themed brush to encourage kids to brush.",
+    "image": "https://i.postimg.cc/Zq831Z11/Kids-Cartoontooth-Brush-with-white-background-well-packed.jpg"  },
+  {
+    "id": "7",
+    "name": "Rechargeable Electric Toothbrush",
+    "category": "Electrical",
+    "price": 25.99,
+    "description": "Rechargeable electric toothbrush with multiple modes.",
+    "image": "https://i.postimg.cc/Kv316xTq/Rechargeable-Electric-Toothbrush-with-white-background.jpg"  },
+  {
+    "id": "8",
+    "name": "Water Flosser",
+    "category": "Electrical",
+    "price": 39.99,
+    "description": "Cordless water flosser for deep cleaning between teeth.",
+    "image": "https://i.postimg.cc/y8BSc2JR/Water-Flosser-with-white-background.jpg"  },
+  
+  {
+    "id": "9",
+    "name": "UV Toothbrush Sanitizer",
+    "category": "Electrical",
+    "price": 29.99,
+    "description": "Portable UV case to sanitize your toothbrush.",
+    "image": "https://i.postimg.cc/4drYd0kH/UV-Toothbrush-Sanitizer-product-with-white-background.jpg"  },
+  {
+    "id": "10",
+    "name": "Seentwitue Sensitive Relief Toothpaste",
+    "category": "Toothpaste",
+    "price": 5.75,
+    "description": "Toothpaste for sensitive teeth enamel protection.",
+    "image": "https://i.postimg.cc/bNLqV5Cm/Seentwituee-Sensitive-Relief-Toothpaste-product-with-white-background.jpg"  },
+  {
+    "id": "11",
+    "name": "Daily teeth Whitening Rinse",
+    "category": "Cleanser",
+    "price": 12.99,
+    "description": "Whitening rinse for everyday stain removal.",
+    "image": "https://i.postimg.cc/3NYHnjgH/Daily-teeth-Whitening-Rinse-product-with-white-background.jpg"  },
+  {
+    "id": "12",
+    "name": "Stainless Steel Tongue Scraper",
+    "category": "Accessories",
+    "price": 7.50,
+    "description": "Durable stainless steel scraper to remove bacteria and freshen breath.",
+    "image": "https://i.postimg.cc/brJmysPf/Stainless-Steel-Tongue-Scraper-product-vertical-alighned-and-well-packaged-with-white-background.jpg"  },
+  {
+    "id": "13",
+    "name": "Clear Aligners Starter Kit",
+    "category": "Accessories",
+    "price": 199.99,
+    "description": "Custom-fit clear aligner for teeth straightening at home.",
+    "image": "https://i.postimg.cc/V6sRgddK/A-Clear-Aligners-Starter-Kit-product-presented-on-a-clean-seamless-white-background-The-lighting-i.jpg"  }, 
+  {
+    "id": "14",
+    "name": "Metal Braces Kit",
+    "category": "Accessories",
+    "price": 299.99,
+    "description": "Complete metal braces kit for orthodontic treatment at home.",
+    "image": "https://i.postimg.cc/mD0wQR10/Metal-Braces-Kit-product.jpg"  },
+  {
+    "id": "15",
+    "name": "Retainer Set",
+    "category": "Accessories",
+    "price": 79.99,
+    "description": "Durable retainers to maintain your perfect smile after braces.",
+    "image": "https://i.postimg.cc/Wz51Bp6T/Retainer-Set-teeth-product.jpg"  },
+   {
+    "id": "16",
+    "name": "Jim Powder",
+    "category": "MouthCare",
+    "price": 29.99,
+    "description": "Jim Powder for effective teeth cleaning and whitening at home.",
+    "image": "https://i.postimg.cc/jStrHYzF/Jim-Powder-product.jpg"  },
+  {
+    "id": "17",
+    "name": "Fresh Breath Spray",
+    "category": "MouthCare",
+    "price": 9.99,
+    "description": "Instant Fresh Breath Spray for on-the-go freshness anytime.",
+    "image": "https://i.postimg.cc/FKxzyxd7/Fresh-Breath-Spray-product.jpg"  },
+  {
+    "id": "18",
+    "name": "Oral-B Toothpaste",
+    "category": "Toothpaste",
+    "price": 5.99,
+    "description": "Oral-B Toothpaste for cavity protection and fresh breath.",
+    "image": "https://i.postimg.cc/YStYB0QS/oral-b-tttothpaste-product.jpg"  }
+
+]
