@@ -12,6 +12,9 @@ p, a, button{
     font-family: "Mulish", sans-serif;
 
 }
+body{
+  overflow-x: hidden !important ;
+}
 
 /* navbar additional styling and manipulation */
 .navbar{

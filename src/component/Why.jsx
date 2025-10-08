@@ -15,7 +15,7 @@ function Why() {
           Why our Consultants are the best
         </h1>
 
-        <div className="row justify-content-center text-center g-3 py-5">
+        <div className="row justify-content-center text-center g-4 py-5">
           
           {/* Card 1 */}
           <div className="col-lg-4 col-md-6">

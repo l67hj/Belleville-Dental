@@ -1,6 +1,6 @@
 // import React, { useState } from 'react'
 import './about.css'
-import Why from '../component/Why';
+import Why from '../../component/Why';
 
 function About() {
 //   const [email, setEmail] = useState("")

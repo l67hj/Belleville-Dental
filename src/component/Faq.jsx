@@ -3,7 +3,7 @@ import React from "react";
 function FAQ() {
   return (
     <div className="faq-section pb-5 ">
-      <div className="container w-75 px-lg-0 px-4">
+      <div className="container w-100  px-lg-0 px-4">
         <h2 className="display-6 fw-bold text-center mb-2 text-black">Frequently Asked Questions</h2>
         <p className="text-center text-muted mb-5">
           Have questions? We’ve got answers! Here are some of the most common ones.
