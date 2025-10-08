@@ -6,7 +6,7 @@
       "year": 2025,
       "type": "Article",
       "summary": "New findings link gum health with cardiovascular health, showing stronger connections between oral and systemic health.",
-      "link": "/research/gum-heart.pdf"
+      "image": "https://i.postimg.cc/WzFsS1gy/equipment-dental-instruments-dentist-s-office-tools-close-up.jpg"
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
       "year": 2024,
       "type": "Study",
       "summary": "A comparative study on the effectiveness of Invisalign versus traditional braces in adult orthodontics.",
-      "link": "/research/invisalign-study.pdf"
+      "image": "https://i.postimg.cc/4dMD4CSn/caroline-lm-m-4t-Ymt-Ll-I-unsplash.jpg"
     },
     {
       "id": 3,
@@ -22,7 +22,7 @@
       "year": 2025,
       "type": "Video",
       "summary": "A review on how artificial intelligence is improving dental diagnostics through advanced imaging analysis.",
-      "link": "https://youtu.be/CBhU4rFV9DI?si=4tdsrTV5OQfufe78"
+      "image": "https://i.postimg.cc/k5BQWDcQ/british-glass-whipped-trifle-creamy.jpg"
     },
     {
       "id": 4,
@@ -30,7 +30,7 @@
       "year": 2023,
       "type": "Research Paper",
       "summary": "Exploring nanotech-based dental products for enamel protection and cavity prevention.",
-      "link": "/research/nano-oral.pdf"
+      "image": "https://i.postimg.cc/3NfdxwHG/indra-projects-FUw4b-Guv9-X4-unsplash.jpg"
     },
     {
       "id": 5,
@@ -38,7 +38,7 @@
       "year": 2022,
       "type": "Video",
       "summary": "An in-depth review of the effectiveness of laser-assisted cavity treatment and gum reshaping.",
-      "link": "https://youtube.com/shorts/O7v6WaTtjoU?si=SnqdnZM2n2SAepCK"
+      "image": "https://i.postimg.cc/mkKBn1sm/ozkan-guner-AQG6-C-x-YEp-A-unsplash.jpg"
     },
     {
       "id": 6,
@@ -46,7 +46,7 @@
       "year": 2024,
       "type": "Study",
       "summary": "Saliva testing as a non-invasive diagnostic tool for detecting systemic diseases early.",
-      "link": "/research/saliva-diagnostics.pdf"
+      "image" : "https://i.postimg.cc/L4Pf3cMm/doctor-performing-medical-research-lab-1.jpg"
     },
     {
       "id": 7,
@@ -54,7 +54,7 @@
       "year": 2025,
       "type": "Research Paper",
       "summary": "Applications of 3D printing for custom dental implants, crowns, and aligners.",
-      "link": "/research/3d-printing-dental.pdf"
+      "image" : "https://i.postimg.cc/6508HwbX/patient-pov-listening-explication-teeth-treatment-dentist-coverall-showing-x-ray-tablet-stomatology.jpg"
     },
     {
       "id": 8,
@@ -62,7 +62,7 @@
       "year": 2023,
       "type": "Article",
       "summary": "The development of new materials that are safer and more durable for dental restorations.",
-      "link": "/research/biocompatible-materials.pdf"
+      "image" : "https://i.postimg.cc/dQgbzTX9/dentist-office-doctor-practice-concept-close-uo-hands-professional-african-american-doctor-dentistry.jpg"
     },
     {
       "id": 9,
@@ -70,7 +70,7 @@
       "year": 2022,
       "type": "Case Study",
       "summary": "Case studies showing the role of oral appliances in managing sleep apnea effectively.",
-      "link": "/research/sleep-apnea.pdf"
+      "image" : "https://i.postimg.cc/htDpwDSk/portrait-man-relaxing-home-while-listening-music.jpg"
     },
     {
       "id": 10,
@@ -78,23 +78,9 @@
       "year": 2024,
       "type": "Research Paper",
       "summary": "Exploring stem cell therapy and tissue engineering for tooth regeneration.",
-      "link": "/research/regenerative-dentistry.pdf"
-    },
-    {
-      "id": 11,
-      "title": "Teledentistry Growth",
-      "year": 2023,
-      "type": "Article",
-      "summary": "How telehealth has transformed dental consultations and access to care.",
-      "link": "/research/teledentistry.pdf"
-    },
-    {
-      "id": 12,
-      "title": "Oral Microbiome & Overall Health",
-      "year": 2025,
-      "type": "Study",
-      "summary": "Study on how the balance of oral bacteria impacts immunity, gut health, and chronic diseases.",
-      "link": "/research/oral-microbiome.pdf"
+      "link": "/research/regenerative-dentistry.pdf",
+            "image": "https://i.postimg.cc/mkKBn1sm/ozkan-guner-AQG6-C-x-YEp-A-unsplash.jpg"
+
     }
   ]
 }

@@ -10,6 +10,7 @@ import Research from './pages/Research'
 import Products from './pages/Products'
 import Navbar from './component/Navbar'
 import Professional from './pages/Professional'
+import Footer from './component/footer/Footer'
 
 function App() {
   return (
@@ -25,9 +26,8 @@ function App() {
       <Route path='/gallery'  element={<Gallery/>}/>
       <Route path='contact'   element={<Contact/>}/>
     </Routes>
-    <div>
-      <Footer/>
-    </div>
+    <Footer/>
+ 
     </>
   )
 }
